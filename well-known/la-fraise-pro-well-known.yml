@@ -1,0 +1,60 @@
+generated: '2026-07-19'
+method: probed
+source: live HTTP probes of lafraise.pro and app.lafraise.pro
+description: >-
+  Probe of the standard /.well-known/ discovery surface across every host known
+  for La Fraise. No .well-known documents are published on either host; every
+  probe returned 404. Recorded as honest negative evidence, not an omission.
+hosts:
+- host: lafraise.pro
+  probes:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+- host: app.lafraise.pro
+  probes:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+adjacent_discovery:
+  description: >-
+    Discovery documents La Fraise does publish at the web root, outside the
+    /.well-known/ namespace.
+  documents:
+  - path: /llms.txt
+    status: 200
+    file: llms/la-fraise-pro-llms.txt
+  - path: /llms-full.txt
+    status: 200
+    file: null
+    note: >-
+      Published and fetched, but intentionally not committed to this repo
+      (matched by the *-llms-full.txt gitignore rule).
+  - path: /robots.txt
+    status: 200
+    file: null
+    note: >-
+      Explicitly allows AI/LLM crawlers by name, including GPTBot, ClaudeBot,
+      anthropic-ai, PerplexityBot, Google-Extended, MistralAI-User and others.
+  - path: /sitemap.xml
+    status: 200
+    file: null
+    note: 26 URLs, all marketing/product/legal pages; no developer or API routes.

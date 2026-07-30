@@ -1,0 +1,56 @@
+generated: '2026-07-19'
+method: searched
+source: https://registry.npmjs.org/@lafraise/qpdf
+description: >-
+  First-party published packages for La Fraise. La Fraise publishes no public
+  API and therefore ships no client SDKs; the single package below is an
+  open-source WebAssembly library released by the company's GitHub organization,
+  not an API client. Registries searched with no first-party result: PyPI, Maven
+  Central, NuGet, pkg.go.dev, RubyGems, Packagist, crates.io.
+organization:
+  github: https://github.com/lafraise-pro
+  github_name: lafraise.pro
+  created: '2024-09-14'
+  public_repos: 1
+packages:
+- name: '@lafraise/qpdf'
+  registry: npm
+  url: https://www.npmjs.com/package/@lafraise/qpdf
+  repository: https://github.com/lafraise-pro/qpdf-wasm
+  language: TypeScript
+  latest_version: 2.3.0
+  versions:
+  - 1.0.0
+  - 2.0.0
+  - 2.1.0
+  - 2.2.0
+  - 2.3.0
+  license: AGPL-3.0-or-later
+  first_published: '2025-08-21'
+  last_modified: '2026-01-15'
+  official: true
+  kind: library
+  sdk: false
+  description: >-
+    A WebAssembly build of libqpdf. Published under La Fraise's own GitHub
+    organization; consistent with the company's PDF-centric product surface
+    (dental treatment quotes, informed-consent forms and electronically signed
+    documents), but it is a general-purpose PDF library rather than a client for
+    a La Fraise API.
+registries_searched:
+- registry: npm
+  result: 1 first-party package
+- registry: PyPI
+  result: none
+- registry: Maven Central
+  result: none
+- registry: NuGet
+  result: none
+- registry: pkg.go.dev
+  result: none
+- registry: RubyGems
+  result: none
+- registry: Packagist
+  result: none
+- registry: crates.io
+  result: none

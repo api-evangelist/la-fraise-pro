@@ -1,0 +1,43 @@
+# La Fraise
+
+> La Fraise est la solution française de digitalisation administrative pour les cabinets et centres dentaires : devis interactifs, consentements éclairés, accord de prise en charge et signature électronique conforme. Plus de 3500 dentistes équipés, hébergement HDS en Union européenne.
+
+La Fraise s'intègre nativement aux principaux logiciels métier du secteur dentaire (LOGOSw, Julie, Veasy, CS Trophy, Visiodent, Ardion, WeClever, Desmos, Galaxie, Effigie) et permet aux praticiens d'envoyer en un clic à leurs patients des documents pédagogiques, interactifs et signés à distance.
+
+Éditeur : LA FRAISE PRO SAS — France. Hébergement : AWS, certifié HDS, données stockées en Union européenne (conforme à l'article L.1111-8 du Code de la santé publique).
+
+## Produit
+
+- [Accueil — vue d'ensemble](https://lafraise.pro/) : positionnement, fonctionnalités, social proof, témoignages
+- [Pédagogie patient](https://lafraise.pro/pedagogie-patient) : devis interactif, vidéos pédagogiques, consentement éclairé
+- [Signature électronique](https://lafraise.pro/signature-electronique) : signature conforme aux normes de l'ANS
+
+## Intégrations logiciels métier
+
+- [Toutes les intégrations](https://lafraise.pro/integration) : grille des 10 logiciels compatibles
+- [LOGOSw](https://lafraise.pro/integration/logosw) — synchronisation bidirectionnelle temps réel
+- [Veasy](https://lafraise.pro/integration/veasy) — synchronisation bidirectionnelle temps réel
+- [Desmos](https://lafraise.pro/integration/desmos) — synchronisation bidirectionnelle temps réel
+- [Julie](https://lafraise.pro/integration/julie)
+- [CS Trophy](https://lafraise.pro/integration/cs-trophy)
+- [Visiodent](https://lafraise.pro/integration/visiodent)
+- [Ardion](https://lafraise.pro/integration/ardion)
+- [WeClever](https://lafraise.pro/integration/weclever)
+- [Galaxie](https://lafraise.pro/integration/galaxie)
+- [Effigie](https://lafraise.pro/integration/effigie)
+
+## Tarifs
+
+- [Tarifs](https://lafraise.pro/tarifs) : tarifs **sur devis personnalisés** selon la structure de l'établissement (cabinet individuel, groupe, centre, nombre de praticiens). Estimation via le formulaire en ligne.
+
+## Ressources
+
+- [Média / presse](https://lafraise.pro/media) : articles de presse mentionnant La Fraise
+- [Documentation client](https://lafraise.pro/documentation-client)
+- [Contenu détaillé pour LLMs](https://lafraise.pro/llms-full.txt)
+
+## Légal
+
+- [Mentions légales](https://lafraise.pro/mentions-legales)
+- [Conditions générales d'abonnement](https://lafraise.pro/conditions-generales-abonnement)
+- [Gestion des cookies](https://lafraise.pro/gestion-des-cookies)

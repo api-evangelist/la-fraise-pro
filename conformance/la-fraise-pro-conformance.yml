@@ -1,0 +1,85 @@
+generated: '2026-07-19'
+method: searched
+source: https://lafraise.pro/llms.txt
+description: >-
+  Standards and regulatory frameworks La Fraise publicly claims conformance
+  with. La Fraise is a French health-sector SaaS (dental treatment quotes,
+  informed consent, mutual-insurer coverage requests and electronic signature),
+  so its published conformance posture is healthcare-regulatory rather than
+  API-technical. Every entry below is evidenced by the provider's own published
+  text; no conformance is inferred.
+scope: company
+standards:
+- id: gdpr
+  name: General Data Protection Regulation (RGPD)
+  conforms: true
+  evidence: >-
+    "La Fraise est conforme au Reglement General sur la Protection des Donnees
+    (RGPD). Les patients gardent le controle de leurs donnees et peuvent exercer
+    leurs droits (acces, rectification, effacement, portabilite)."
+  source: https://lafraise.pro/llms-full.txt
+- id: hds
+  name: Hebergeur de Donnees de Sante (French health-data hosting certification)
+  conforms: true
+  qualifier: inherited-from-host
+  evidence: >-
+    Patient data is hosted on Amazon Web Services infrastructure certified HDS
+    and located in the European Union. The HDS certification is held by the
+    hosting provider (AWS); La Fraise asserts that it hosts exclusively on that
+    certified infrastructure rather than holding the certification itself.
+  source: https://lafraise.pro/llms-full.txt
+- id: csp-l1111-8
+  name: Code de la sante publique, article L.1111-8 (personal health data hosting)
+  conforms: true
+  evidence: >-
+    "Cet hebergement est conforme a l'article L.1111-8 du Code de la sante
+    publique qui encadre l'hebergement des donnees de sante a caractere
+    personnel."
+  source: https://lafraise.pro/llms-full.txt
+- id: ans-signature
+  name: Agence du Numerique en Sante (ANS) electronic signature norms
+  conforms: true
+  evidence: >-
+    "La signature electronique proposee par La Fraise est conforme aux normes de
+    l'ANS (Agence du Numerique en Sante), garantissant la valeur probante des
+    documents signes."
+  source: https://lafraise.pro/signature-electronique
+- id: eu-data-residency
+  name: European Union data residency
+  conforms: true
+  evidence: >-
+    "Hebergement : AWS, certifie HDS, donnees stockees en Union europeenne."
+  source: https://lafraise.pro/llms.txt
+security_practices_claimed:
+  source: https://lafraise.pro/llms-full.txt
+  note: >-
+    Stated as practices in the provider's own documentation; not independently
+    audited or certified in any published attestation we could locate.
+  practices:
+  - Encryption of data in transit and at rest
+  - Secure authentication
+  - Regular backups
+  - Security audits
+not_applicable:
+  note: >-
+    La Fraise publishes no public API, developer portal, OpenAPI description or
+    authorization server, so the cross-cutting API standards this pipeline
+    normally asserts against cannot be evaluated. Recorded as not-applicable
+    rather than non-conforming.
+  standards:
+  - oauth2
+  - oidc
+  - fapi
+  - scim
+  - odata
+  - json:api
+  - rfc9457
+  - pagination
+  - idempotency
+  - fhir
+  - psd2
+attestations_searched:
+  note: >-
+    No SOC 2, ISO 27001, PCI DSS, HIPAA or FedRAMP attestation, and no trust
+    center or compliance portal, was found on any La Fraise host.
+  result: none
