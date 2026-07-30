@@ -1,19 +1,52 @@
 aid: la-fraise-pro
 name: La Fraise Pro
-description: La Fraise Pro is a company surfaced as a portfolio company of seedcamp and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  La Fraise (LA FRAISE PRO SAS) is a French SaaS platform that digitizes the
+  administrative patient journey for dental practices and dental centers:
+  interactive treatment quotes (devis), patient-education video, informed
+  consent, mutual-insurer coverage requests, and compliant electronic signature,
+  all handled remotely. The product integrates natively with the French dental
+  practice-management market — LOGOSw, Julie, Veasy, CS Trophy, Visiodent,
+  Ardion, WeClever, Desmos, Galaxie and Effigie — with real-time bidirectional
+  sync for LOGOSw, Veasy and Desmos. More than 3,500 dentists are equipped.
+  Patient data is hosted on HDS-certified AWS infrastructure in the European
+  Union, in line with article L.1111-8 of the French Code de la sante publique,
+  and electronic signature follows Agence du Numerique en Sante (ANS) norms.
+  La Fraise publishes no public developer API; practice-management integrations
+  are provisioned by its own technical team.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://lafraise.pro/favicon.png
 url: https://raw.githubusercontent.com/api-evangelist/la-fraise-pro/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - seedcamp
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: enriched-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Dental
+- Healthcare
+- Health Tech
+- Electronic Signature
+- Patient Engagement
+- SaaS
+- France
+- Practice Management
+- Document Signing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +55,33 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://lafraise.pro
+  url: https://lafraise.pro
+- type: Documentation
+  url: https://lafraise.pro/documentation-client
+- type: Pricing
+  url: https://lafraise.pro/tarifs
+- type: Login
+  url: https://app.lafraise.pro/fr/login
+- type: TermsOfService
+  url: https://lafraise.pro/conditions-generales-abonnement
+- type: PrivacyPolicy
+  url: https://lafraise.pro/mentions-legales
+- type: GitHubOrganization
+  url: https://github.com/lafraise-pro
+- type: LLMsTxt
+  url: llms/la-fraise-pro-llms.txt
+- type: WellKnown
+  url: well-known/la-fraise-pro-well-known.yml
+- type: Packages
+  url: packages/la-fraise-pro-packages.yml
+- type: Conformance
+  url: conformance/la-fraise-pro-conformance.yml
+- type: Compliance
+  url: conformance/la-fraise-pro-conformance.yml
+- type: DomainSecurity
+  url: security/la-fraise-pro-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
