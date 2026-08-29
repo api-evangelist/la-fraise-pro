@@ -14,6 +14,17 @@ description: >-
   and electronic signature follows Agence du Numerique en Sante (ANS) norms.
   La Fraise publishes no public developer API; practice-management integrations
   are provisioned by its own technical team.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
